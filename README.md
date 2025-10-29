@@ -12,7 +12,7 @@ Compossa is a **composition-based development platform** for building .NET appli
 
 ### Key Characteristics
 
-- **Capability-based architecture** - Components are self-contained with explicit lifecycles
+- **Capability-based architecture** - Components are self-contained, applying resource validation, configuration and on demand enlists into the composition host lifecycle
 - **Dependency Moniker system** - Automatic dependency ordering and validation
 - **MEF integration** - Components self-describe using System.Composition attributes
 - **Cross-platform** - Supports .NET 9+ and bridges from .NET Framework
@@ -20,8 +20,7 @@ Compossa is a **composition-based development platform** for building .NET appli
 ## Who is Compossa for?
 
 - **Architects** seeking cleaner separation of concerns and maintainable system design
-- **Developers** tired of complex GenericHost builders, centralized Program.cs configuration sprawl, and debugging chains of lazy delegates across multiple Microsoft.Extensions.* APIs
-- **Teams** building modular applications where different people own different features
+- **Developers** fast up to speed, just cherry pick your building blocks and start adding value by composing your own features
 - **Managers** seeking proven approaches that reduce development costs, accelerate time-to-market, and minimize technical debt through composition over monolithic architectures
 
 ## Why Compossa?
