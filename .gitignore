@@ -1,0 +1,64 @@
+# Compossa GitHub Repository - .gitignore
+
+## IDE and Editor Files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*~
+
+## Build Output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+## OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+
+## AI Prompt Files (local workflow only)
+*.prompt.md
+.claude/
+
+## Keep These Files
+!.gitignore
+!LICENSE
+!README.md
